@@ -4,6 +4,6 @@
   <id>Mod_PandaRodRechargeMod</id>
   <author>Now Happy Panda</author>
   <loadPriority>100</loadPriority>
-  <description>Add scroll of recharge to allow recharge rods or spellbooks</description>
+  <description>Add scroll, spell and special ability of recharge to allow recharge rods or spellbooks</description>
   <version>0.23.285</version>
 </Meta>

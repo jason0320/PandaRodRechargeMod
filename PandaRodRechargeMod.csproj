@@ -92,8 +92,10 @@
     <Compile Include="Act_Perform_Patch.cs" />
     <Compile Include="InvOwnerRecharge.cs" />
     <Compile Include="Mod_PandaRodRechargeMod.cs" />
+    <Compile Include="actRecharge.cs" />
     <Compile Include="spRecharge.cs" />
     <Compile Include="TraitScrollStatic_OnRead_Patch.cs" />
+    <Compile Include="Trait_OnBarter_Patch.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Element\Element.xlsx" />
