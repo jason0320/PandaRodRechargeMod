@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Meta>
+  <title>Panda's Rod Recharge Mod</title>
+  <id>Mod_PandaRodRechargeMod</id>
+  <author>Now Happy Panda</author>
+  <loadPriority>100</loadPriority>
+  <description>Add scroll of recharge to allow recharge rods or spellbooks</description>
+  <version>0.23.285</version>
+</Meta>
