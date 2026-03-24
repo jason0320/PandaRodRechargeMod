@@ -99,7 +99,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Element\Element.xlsx" />
-    <None Include="Element\Game.xlsx" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Properties\" />
