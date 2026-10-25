@@ -45,7 +45,7 @@ namespace Mod_PandaRodRechargeMod
             }
             else
             {
-                Msg.SayRaw(t.GetName(NameStyle.Full) + amount + " charges restored!");
+                Msg.SayRaw(t.GetName(NameStyle.Full) + " " + amount + " charges restored!");
             }
 
         }

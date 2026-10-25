@@ -23,6 +23,19 @@ namespace Mod_PandaRodRechargeMod
             var sources = Core.Instance.sources;
             ModUtil.ImportExcel(excel, "Element", sources.elements);
 
+            // The game caches its random scroll / rod / spellbook spell pools the first time
+            // one is rolled. Clear them so the new Recharge row is always part of the pool.
+            try
+            {
+                TraitScrollRandom.selector.listSource.Clear();
+                TraitRodRandom.selecter.listSource.Clear();
+                TraitBaseSpellbook.selecter.listSource.Clear();
+            }
+            catch (Exception e)
+            {
+                Logger.LogWarning("Could not reset random spell pools: " + e.Message);
+            }
+
             var harmony = new Harmony("Panda's Rod Recharge Mod");
             harmony.PatchAll();
         }
